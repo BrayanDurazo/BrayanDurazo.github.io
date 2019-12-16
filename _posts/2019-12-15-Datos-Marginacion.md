@@ -632,7 +632,7 @@ for p in ANALF_entidades.patches:
 ```
 
 
-![image](/assets/images/output_14_0.jpg)
+![image](/assets/img/output_14_0.jpg)
 
 
 
@@ -648,7 +648,7 @@ for p in ANALF_sonora.patches:
         ANALF_sonora.annotate('{:.1f}%'.format(p.get_width()), (x, y))
 ```
 
-![image](/assets/images/output_16_0.jpg)
+![image](/assets/img/output_16_0.jpg)
 
 
 
@@ -698,7 +698,7 @@ plt.ylabel('WCSS')
 plt.show()
 ```
 
-![image](/assets/images/output_21_0.jpg)
+![image](/assets/img/output_21_0.jpg)
 
 
 
@@ -737,7 +737,7 @@ sns.scatterplot(Centroids_pca[:,0],Centroids_pca[:,1],s=300,label='Centroids')
 
 
 
-![image](/assets/images/output_24_2.jpg)
+![image](/assets/img/output_24_2.jpg)
 
 
 
@@ -1673,27 +1673,27 @@ plt.ylabel('Indice Marginación', fontsize=10)
 plt.show()
 ```
 
-![image](/assets/images/output_50_0.jpg)
+![image](/assets/img/output_50_0.jpg)
 
 
 
-![image](/assets/images/output_50_1.jpg)
+![image](/assets/img/output_50_1.jpg)
 
 
 
-![image](/assets/images/output_50_2.jpg)
+![image](/assets/img/output_50_2.jpg)
 
 
 
-![image](/assets/images/output_50_3.jpg)
+![image](/assets/img/output_50_3.jpg)
 
 
 
-![image](/assets/images/output_50_4.jpg)
+![image](/assets/img/output_50_4.jpg)
 
 
 
-![image](/assets/images/output_50_5.jpg)
+![image](/assets/img/output_50_5.jpg)
 
 
 
