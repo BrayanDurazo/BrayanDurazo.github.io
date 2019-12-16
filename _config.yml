@@ -9,14 +9,14 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
-author: David Freeman # add your name
-author-img: david-freeman.jpg # add your photo
+author: Brayan Heberto Durazo Arvizu # add your name
+author-img: profile.jpg # add your photo
 about-author: Estudiante de licenciatura en ciencias de la camputación. # add description
 social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
-social-github: artemsheludko # add your Github handle
+social-facebook: brayan.durazoarvizu # add your Facebook handle
+social-github: BrayanDurazo # add your Github handle
 social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
+social-email: Brayan9612@gmail.com# add your Email address
 
 # Disqus
 discus-identifier: mr-brown # add your discus identifier
