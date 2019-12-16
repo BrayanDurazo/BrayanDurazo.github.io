@@ -3,7 +3,7 @@ layout: post
 title: Análisis de marginación en México
 date: 2019-12-16 13:32:20 +0300
 description: Proyecto para la materia de reconocimiento de patrones, en donde aplico lo aprendido con datos ofrecitos por el Consejo Nacional de Población.
-img: post-conapo.jpg # Add image post (optional)
+img: js-1.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [IA,CONAPO]
 ---
