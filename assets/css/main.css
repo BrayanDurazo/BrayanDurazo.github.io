@@ -892,10 +892,6 @@ table tfoot td {
   background-color: #fff;
 }
 
-.article-page {
-  width: 120%;
-}
-
 ::-moz-selection {
   background: rgba(38, 57, 89, 0.8);
   color: #ffffff;
@@ -1201,6 +1197,7 @@ a.newer-posts:hover {
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
 .wrap-content {
   padding: 20px;
+  width:70%;
 }
 
 .header-page {
