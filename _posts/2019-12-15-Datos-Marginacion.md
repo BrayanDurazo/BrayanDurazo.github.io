@@ -8,6 +8,8 @@ fig-caption: # Add figcaption (optional)
 tags: [IA,CONAPO]
 ---
 
+Proyecto para la materia de reconocimiento de patrones, en donde aplico lo aprendido con datos ofrecitos por el Consejo Nacional de Población.
+
 ```python
 import pandas as pd
 pd.plotting.register_matplotlib_converters()
