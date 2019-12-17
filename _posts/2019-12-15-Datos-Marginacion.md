@@ -1729,39 +1729,39 @@ print_model = model.summary()
 print(print_model)
 ```
 
-                                OLS Regression Results                            
-    ==============================================================================
-    Dep. Variable:                     IM   R-squared:                       0.725
-    Model:                            OLS   Adj. R-squared:                  0.725
-    Method:                 Least Squares   F-statistic:                     5510.
-    Date:                Fri, 13 Dec 2019   Prob (F-statistic):               0.00
-    Time:                        08:45:28   Log-Likelihood:                -11322.
-    No. Observations:               14641   AIC:                         2.266e+04
-    Df Residuals:                   14633   BIC:                         2.272e+04
-    Df Model:                           7                                         
-    Covariance Type:            nonrobust                                         
-    ==============================================================================
-                     coef    std err          t      P>|t|      [0.025      0.975]
-    ------------------------------------------------------------------------------
-    const         -1.0315      0.019    -53.121      0.000      -1.070      -0.993
-    POB_TOT    -1.291e-06   3.72e-08    -34.704      0.000   -1.36e-06   -1.22e-06
-    ANALF          0.0541      0.001     93.420      0.000       0.053       0.055
-    SPRIM         -0.0008      0.001     -1.587      0.113      -0.002       0.000
-    OVSEE         -0.0010      0.000     -2.559      0.011      -0.002      -0.000
-    OVSAE          0.0091      0.000     33.772      0.000       0.009       0.010
-    VHAC          -0.0012      0.000     -2.692      0.007      -0.002      -0.000
-    OVPT           0.0031      0.000      9.021      0.000       0.002       0.004
-    ==============================================================================
-    Omnibus:                      793.150   Durbin-Watson:                   1.631
-    Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1237.777
-    Skew:                           0.463   Prob(JB):                    1.66e-269
-    Kurtosis:                       4.082   Cond. No.                     5.80e+05
-    ==============================================================================
-    
-    Warnings:
-    [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-    [2] The condition number is large, 5.8e+05. This might indicate that there are
-    strong multicollinearity or other numerical problems.
+##OLS Regression Results                            
+==============================================================================
+Dep. Variable:                     IM   R-squared:                       0.725
+Model:                            OLS   Adj. R-squared:                  0.725
+Method:                 Least Squares   F-statistic:                     5510.
+Date:                Fri, 13 Dec 2019   Prob (F-statistic):               0.00
+Time:                        08:45:28   Log-Likelihood:                -11322.
+No. Observations:               14641   AIC:                         2.266e+04
+Df Residuals:                   14633   BIC:                         2.272e+04
+Df Model:                           7                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -1.0315      0.019    -53.121      0.000      -1.070      -0.993
+POB_TOT    -1.291e-06   3.72e-08    -34.704      0.000   -1.36e-06   -1.22e-06
+ANALF          0.0541      0.001     93.420      0.000       0.053       0.055
+SPRIM         -0.0008      0.001     -1.587      0.113      -0.002       0.000
+OVSEE         -0.0010      0.000     -2.559      0.011      -0.002      -0.000
+OVSAE          0.0091      0.000     33.772      0.000       0.009       0.010
+VHAC          -0.0012      0.000     -2.692      0.007      -0.002      -0.000
+OVPT           0.0031      0.000      9.021      0.000       0.002       0.004
+==============================================================================
+Omnibus:                      793.150   Durbin-Watson:                   1.631
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1237.777
+Skew:                           0.463   Prob(JB):                    1.66e-269
+Kurtosis:                       4.082   Cond. No.                     5.80e+05
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 5.8e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
 
 
 
@@ -2142,7 +2142,10 @@ random_subset_predict
 </table>
 </div>
 
+## Conclusiones
+Con la información observada podemos concluir múltiples ideas, una que se ve claramente en el mapa que se generó, podemos ver fácilmente que en el sur del país los índices de marginación son mayores que en el norte.
 
+A través de la regresión lineal pudimos observar que el analfabetismo es la característica que mas inflye en el índice de marginación, por lo que la educación a ese nivel debe de ser prioritario para el país. 
 
 
 ```python
