@@ -1197,7 +1197,7 @@ a.newer-posts:hover {
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
 .wrap-content {
   padding: 20px;
-  width:40%;
+  width:80%;
 }
 
 .header-page {
@@ -1225,6 +1225,7 @@ a.newer-posts:hover {
   max-height: 500px;
   background-color: #fafafa;
   overflow: hidden;
+  width: 80%;
 }
 
 .page-cover-image figure {
